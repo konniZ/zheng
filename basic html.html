@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <meta charset="UTF-8"><!--CHAREST-->
-  <title>My First HTML Project:main page</title>
+<meta charset="UTF-8"><!--CHAREST-->
+<title>My First HTML Project:main page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive let the web page look good on any device!-->
 
 <h2>TOPIC</h2> <!--topic-->
@@ -24,10 +24,28 @@
     <li>xxxxx</li>
   </ol>
   
-  <!--create a text field, add placeholder text to text field, and create a form element-->
+  <!--create a text field, add placeholder text to text field, 
+      and create a form element, add submitbutton to a form-->
   <input type="text">
   <input type="text" placeholder="text you want to put in the text field">
+  <form action= "/submit-something">
+    <input type="text" placeholder="text you want to put in the text field">
+  </form>
+  <form action= "/submit-something">
+    <input type="text" placeholder="text you want to put in the text field">
+    <button type="submit">this button submits the form</button>
+  </form>
   
+  <!--use html5 to require a field so that the user will not be able to submit wuntil they filled them out-->
+  <form action= "/submit-something">
+    <input type="text" placeholder="text you want to put in the text field" required>
+    <button type="submit">this button submits the form</button>
+  </form>
+  <!--create a radio buttons/select one of the choice-->
+  
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+ 
   
   
   
