@@ -1,0 +1,61 @@
+
+
+header, footer {
+  color: #213643;
+  background-color: #b4b4b4;
+}
+nav {
+  background-color: #787878;
+}
+
+h1, h2, h3 {
+ font-family:Georgia, Cambria, "Times New Roman", cursive;
+}
+h1 { font-size: 350%; }
+h2 { font-size: 250%; }
+h3 { font-size: 150% } 
+
+body {
+ font-family: "Times New Roman", serif;
+ background-color: #3c3c3c;
+ font-size:20px;
+}
+
+#description{  /* ID */
+   border-bottom: solid 4pt #6a5acd;
+   color: #3cb371; 
+}
+.tampa {    /*class */
+   color: #ff0000;
+   font-style: italic;
+}
+
+   color: #FF7F50;
+}
+a:link {
+   
+   color: #47B3D7;
+}
+a:hover {
+   background-color: #5F9EA0;
+}
+
+a:visited {
+   color: #FF7F50
+}
+nav ul li {
+   list-style: none;
+   display: inline;   /* in one line */
+   margin: 1em;
+}
+nav {
+   padding: 0.5em;
+}
+nav a {
+   padding: 0.5em;
+}
+
+
+
+
+
