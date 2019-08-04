@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--declare the doc type of an html document-->
 <html lang="en-US">
+  <head>
 <meta charset="UTF-8"><!--CHAREST-->
-<title>My First HTML Project:main page</title>
+<title>Pratice the basic HTML</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive let the web page look good on any device!-->
-
-<h2>TOPIC</h2> <!--topic-->
+  </head>
+  <body>
+  <h1>Basic HTMLC</h1> <!--topic-->
 <main>
   
   <P>Click here to view more <a href="https://github.com/konniZ/zheng" 
@@ -15,40 +17,43 @@
                 &fit=crop&w=600&q=60" alt="Description of the picture, in case can't see the picture"> </a>
   <!--presents for picture's link-->
   
-  <p>create table below</p>
+  <div> <!--nest two elements within a single div element-->
+  <p>create table 1 below</p>
   <ul> <!--unorder list-->
     <li>xxxxx</li>
     <li>xxxxx</li>
     <li>xxxxx</li>
   </ul>
-  
+   <p>create table 2 below</p>
   <ol> <!--ordered list:12345-->
     <li>xxxxx</li>
     <li>xxxxx</li>
     <li>xxxxx</li>
   </ol>
+  </div>
+    
+  <!--create a radio buttons/select one of the choice-->
   
-    <!--create a radio buttons/select one of the choice-->
-  
-    <label for="1"><input id="1" type="radio" name="1-4"> 1</label>
+    <label for="1"><input id="1" type="radio" name="1-4" checked> 1</label>  <!--check radio buttons by default-->
     <label for="2"><input id="2" type="radio" name="1-4"> 2</label>
     <label for="3"><input id="3" type="radio" name="1-4"> 3</label>
     <label for="4"><input id="4" type="radio" name="1-4"> 4</label></br>
   
   <!--add set of checkbox/can select all you need-->
-  <lable for="A"><input id ="A" type="checkbox" name="A-D">A</label>
-  <lable for="B"><input id ="B" type="checkbox" name="A-D">B</label>
-  <lable for="C"><input id ="C" type="checkbox" name="A-D">C</label>
-  <lable for="D"><input id ="D" type="checkbox" name="A-D">DS</label></br>
+    <lable for="A"><input id ="A" type="checkbox" name="A-D" checked>A</label> <!--check checkboxes by default-->
+    <lable for="B"><input id ="B" type="checkbox" name="A-D">B</label>
+    <lable for="C"><input id ="C" type="checkbox" name="A-D">C</label>
+    <lable for="D"><input id ="D" type="checkbox" name="A-D">DS</label></br>
 
 
   <!--create a text field, add placeholder text to text field, 
       and create a form element, add submitbutton to a form-->
-  <input type="text"><br>
-  <input type="text" placeholder="text you want to put in the text field">
+    <input type="text"><br>
+    <input type="text" placeholder="text you want to put in the text field">
+    
   <form action= "/submit-something">
     <input type="text" placeholder="text you want to put in the text field">
-  </form>
+   </form>
   <form action= "/submit-something">
     <input type="text" placeholder="text you want to put in the text field">
     <button type="submit">this button submits the form</button>
@@ -59,22 +64,11 @@
     <input type="text" placeholder="text you want to put in the text field" required>
     <button type="submit">this button submits the form</button>
   </form>
-  <!--create a radio buttons/select one of the choice-->
-  
-    <label for="1"><input id="1" type="radio" name="1-4"> 1</label>
-    <label for="2"><input id="2" type="radio" name="1-4"> 2</label>
-    <label for="3"><input id="3" type="radio" name="1-4"> 3</label>
-    <label for="4"><input id="4" type="radio" name="1-4"> 4</label></br>
-  
-  <!--add set of checkbox/can select all you need-->
-  <lable for="A"><input id ="A" type="checkbox" name="A-D">A</label>
-  <lable for="B"><input id ="B" type="checkbox" name="A-D">B</label>
-  <lable for="C"><input id ="C" type="checkbox" name="A-D">C</label>
-  <lable for="D"><input id ="D" type="checkbox" name="A-D">DS</label></br>
- 
+
   
   
   
   </main>
+</body>
   </html>
   
