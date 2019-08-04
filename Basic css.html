@@ -6,7 +6,7 @@
 <body>
 
 <h1 style="color:blue;">Basic CSS1</h1> <!--change color1-->
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> <!--imoport Lobster font, seem didn't work-->  
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> <!--imoport Lobster font-->  
 <style>  
 h2{color:red}
 </style> <!--change color2-->
@@ -21,8 +21,10 @@ h2{color:red}
     font-size:50px;
     font-family:monospace;
   }
+   <!--degrade the font, in case lobster can't use-->
   h1{
-    font-family:Lobster;
+    font-family:Lobster,monospace; 
+   
   }
   </style>
   <h3 class="green-text">basic css3</h3> 
