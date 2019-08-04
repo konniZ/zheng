@@ -12,11 +12,21 @@ h2{color:red}
 </style> <!--change color2-->
   <h2>basic css2</h2>
 <!--degrade font, in case lobster cant use-->
-<style>  
+  <!--border-radius 10px make the corner rounded. 50% make the picture rounded-->
+<style> 
+  .green-background{
+    background-color:green;
+  }
+  .thick-green-border{
+    border-color:green;
+    border-width:10px;
+    border-style:solid;
+    border-radius:50%; 
+  }
   .green-text{
     color:green;      
   }
-  .larger-image{
+  .smaller-image{
     width:500px
   }
   p{
@@ -37,10 +47,23 @@ h2{color:red}
 <p class="green-text">xxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 <p>YYYYYYYYYYYYYYYYYYYYYYY</p>
 <!--link on the picture-->
-<a href="https://github.com/konniZ/zheng"> <img class ="larger-image"
+<a href="https://github.com/konniZ/zheng"> <img class ="smaller-image thick-green-border"
        src="https://images.unsplash.com/photo-1523895665936-7bfe172b757d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format
        &fit=crop&w=600&q=60" alt="Description of the picture, in case can't see the picture"> </a>
   <!--presents for picture's link-->
+  
+<div class="green-background">
+  <p>dddddddddddd</p>
+  <ul>
+    <li>111111</li>
+  </ul>
+  
+  <p>eeeeeeeee</p>
+  <ol>
+    <li>222222</li>
+  </ol>
+  </div>
+  
 
 </main>
 </body>
