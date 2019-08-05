@@ -13,7 +13,11 @@ h2{color:red}
   <h2>basic css2</h2>
 <!--degrade font, in case lobster cant use-->
   <!--border-radius 10px make the corner rounded. 50% make the picture rounded-->
+  <!--id use #, class use. # higher than .-->
 <style> 
+  #cat-photo-form{
+    background-color:silver;
+  }
   .green-background{
     background-color:green;
   }
@@ -30,7 +34,7 @@ h2{color:red}
     width:500px
   }
   p{
-    font-size:50px;
+    font-size:15px;
     font-family:monospace;
   }
 
@@ -64,7 +68,15 @@ h2{color:red}
   </ol>
   </div>
   
-
+  <form id ="cat-photo-form" action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
 </main>
 </body>
 </html>
